@@ -18,6 +18,13 @@ EOF
 chmod +x download-blog.sh
 ```
 
+## 解决README.md有几个乱码符号
+
+https://github.com/lq782655835/blogs/issues/2
+
+乱码是特殊字符，删掉即可。方法是设置vscode的editor.renderControlCharacters为true，即可显示隐藏的特殊字符。接下来删除bs字符再重新上传github即可。
+
+
 ## 博客标题
 
 - [ 阿里巴巴神奇之旅](https://ninghao.net/blog/6695) 2018-11-19
@@ -27,7 +34,7 @@ chmod +x download-blog.sh
 - [ 《创业时代》挺好看](https://ninghao.net/blog/6602) 2018-10-28
 - [ 《Flutter 移动应用》第一季录制完成](https://ninghao.net/blog/6583) 2018-10-23
 - [ 为了孩子](https://ninghao.net/blog/6522) 2018-09-27
-- [ VS Code：23 个提高效率的编辑技巧（附 win 与 mac 快捷键列表）](https://ninghao.net/blog/6509) 2018-09-20
+- [ VS Code：23 个提高效率的编辑技巧（附 win 与 mac 快捷键列表）](https://ninghao.net/blog/6509) 2018-09-20
 - [ 如何自学软件开发](https://ninghao.net/blog/6464) 2018-09-13
 - [ 唠唠使用 Flutter 开发移动应用的体验](https://ninghao.net/blog/6447) 2018-09-05
 - [ VS Code：自定义代码片断（Snippets）](https://ninghao.net/blog/6429) 2018-09-01
@@ -36,9 +43,9 @@ chmod +x download-blog.sh
 - [ Flutter 移动应用开发 #3：Material 应用](https://ninghao.net/blog/6392) 2018-08-25
 - [ Flutter 移动应用开发 #2：自定义小部件（Widget）](https://ninghao.net/blog/6391) 2018-08-24
 - [ Flutter 移动应用开发 #1：在界面上显示 hello](https://ninghao.net/blog/6390) 2018-08-22
-- [ 在阿里云为域名备案](https://ninghao.net/blog/6389) 2018-08-21
-- [ 基于 Flutter 开发 iOS 与 Android 移动应用前的准备](https://ninghao.net/blog/6375) 2018-08-13
-- [ 重要通知：网址临时更换为 ninghao.org](https://ninghao.net/blog/6329) 2018-08-01
+- [ 在阿里云为域名备案](https://ninghao.net/blog/6389) 2018-08-21
+- [ 基于 Flutter 开发 iOS 与 Android 移动应用前的准备](https://ninghao.net/blog/6375) 2018-08-13
+- [ 重要通知：网址临时更换为 ninghao.org](https://ninghao.net/blog/6329) 2018-08-01
 - [ 七月精彩课程回顾](https://ninghao.net/blog/6312) 2018-08-01
 - [ 重造宁皓网（一）](https://ninghao.net/blog/6267) 2018-07-19
 - [ Web 开发，真希望当初有人能告诉我这些（二）](https://ninghao.net/blog/6266) 2018-07-17
@@ -53,12 +60,12 @@ chmod +x download-blog.sh
 - [ 课程发布：《Node.js 应用：中间件与异常》](https://ninghao.net/blog/6152) 2018-06-04
 - [ Node.js 应用开发第二季已启动录制](https://ninghao.net/blog/6137) 2018-06-04
 - [ Web 应用后端开发（第二季 ），我想再听听你的意见](https://ninghao.net/blog/6133) 2018-05-28
-- [ 24 周 Web 应用开发学习计划：总揽](https://ninghao.net/blog/6103) 2018-05-17
+- [ 24 周 Web 应用开发学习计划：总揽](https://ninghao.net/blog/6103) 2018-05-17
 - [ Woohoo !!  录制完成了《Web 应用后端开发（Node.js）》第一季](https://ninghao.net/blog/6101) 2018-05-16
 - [ 课程更新：《Node.js 应用：分页器》](https://ninghao.net/blog/6100) 2018-05-14
 - [ Websocket 课程](https://ninghao.net/blog/6083) 2018-05-11
-- [ 课程更新：《Node.js 应用：文件系统》](https://ninghao.net/blog/6082) 2018-05-10
-- [ 课程更新：《Node.js 应用：文件上传》](https://ninghao.net/blog/6068) 2018-05-07
+- [ 课程更新：《Node.js 应用：文件系统》](https://ninghao.net/blog/6082) 2018-05-10
+- [ 课程更新：《Node.js 应用：文件上传》](https://ninghao.net/blog/6068) 2018-05-07
 - [ 课程更新：《Node.js 应用：身份验证》](https://ninghao.net/blog/6052) 2018-05-04
 - [ 课程更新：《Node.js 应用：重构与改进 #1》](https://ninghao.net/blog/6038) 2018-05-03
 - [ 停用社交网络的这个月我都做了些什么](https://ninghao.net/blog/6011) 2018-04-28
@@ -80,7 +87,7 @@ chmod +x download-blog.sh
 - [ 内容更新：《Node.js 应用：数据库迁移》](https://ninghao.net/blog/5927) 2018-03-23
 - [ 内容更新：《支付宝：电脑与手机网站支付》](https://ninghao.net/blog/5913) 2018-03-19
 - [ 微信支付：公众号支付实施细节](https://ninghao.net/blog/5888) 2018-03-18
-- [ 初学网站应用开发：后端](https://ninghao.net/blog/5887) 2018-03-14
+- [ 初学网站应用开发：后端](https://ninghao.net/blog/5887) 2018-03-14
 - [ Fujifilm X-E3](https://ninghao.net/blog/5867) 2018-03-13
 - [ 学习基于 Node.js 开发网站应用](https://ninghao.net/blog/5846) 2018-03-06
 - [ 2018 开年，从这部电视剧开始](https://ninghao.net/blog/5779) 2018-02-22
@@ -116,7 +123,7 @@ chmod +x download-blog.sh
 - [ 微信小程序：用户授权 wx.authorize](https://ninghao.net/blog/5506) 2017-11-20
 - [ WordPress：注册新的 REST 接口](https://ninghao.net/blog/5492) 2017-11-19
 - [ 微信小程序：分页显示内容，实现无限页面加载功能](https://ninghao.net/blog/5491) 2017-11-16
-- [ 微信小程序：后端服务接口（WordPress）](https://ninghao.net/blog/5481) 2017-11-14
+- [ 微信小程序：后端服务接口（WordPress）](https://ninghao.net/blog/5481) 2017-11-14
 - [ 预告：微信小程序应用后台（WordPress）](https://ninghao.net/blog/5456) 2017-11-09
 - [ NGINX 对我说：“The plain HTTP request was sent to HTTPS port”](https://ninghao.net/blog/5454) 2017-11-09
 - [ WordPress：基于 JWT 的身份验证](https://ninghao.net/blog/5453) 2017-11-08
@@ -188,8 +195,8 @@ chmod +x download-blog.sh
 - [ 《 网站 》第五集：移动导航与动态显示的边栏](https://ninghao.net/blog/4808) 2017-05-09
 - [ 《 网站 》系列里用的工具：Git 版本控制](https://ninghao.net/blog/4791) 2017-05-05
 - [ 直接在 Chrome 浏览器上编辑 SASS 样式](https://ninghao.net/blog/4790) 2017-05-03
-- [ 《 网站 》第四集：导航栏](https://ninghao.net/blog/4789) 2017-05-02
-- [ 《 网站 》第三集：导航的设计](https://ninghao.net/blog/4788) 2017-05-01
+- [ 《 网站 》第四集：导航栏](https://ninghao.net/blog/4789) 2017-05-02
+- [ 《 网站 》第三集：导航的设计](https://ninghao.net/blog/4788) 2017-05-01
 - [ 《 网站 》 第二集：页面的雏形 - 线框图](https://ninghao.net/blog/4742) 2017-04-28
 - [ 《 网站 》第一集：工作流](https://ninghao.net/blog/4706) 2017-04-14
 - [ 我们的会员去了上海的 Drupal 公司](https://ninghao.net/blog/4705) 2017-04-11
